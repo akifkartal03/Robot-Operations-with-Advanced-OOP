@@ -10,7 +10,6 @@ namespace eagle{
         public:
             Robot();
             Robot(robotType type,int engineNumber,double loadAmount);
-            /*----getters and setters----*/
             robotType getRobotType() const;
             void setRobotType(robotType type);
             int getEngineNumber() const;
