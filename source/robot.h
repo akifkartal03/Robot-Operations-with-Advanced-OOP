@@ -4,8 +4,10 @@
 #include<string>
 using namespace std;
 namespace eagle{
+	
     enum robotType { rover, wheeled, crawler, spider,
                     hibrit,series,parallel,not_rover};
+
     class Robot{
         public:
             Robot();
